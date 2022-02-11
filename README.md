@@ -1,1 +1,3 @@
-# honeycomb-cafe-project
+# Honeycomb
+
+Table of Contents
