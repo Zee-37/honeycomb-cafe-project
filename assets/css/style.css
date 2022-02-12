@@ -8,9 +8,12 @@ body, html {margin: auto;
     height: 100px;
 background-color: #f6f4d2;}
 
+.container-fluid div {display: flex;
+align-content: flex-end;
+flex-direction: column;}
+
 #logo {
     position: absolute;
-    float: left;
     padding: 1.5%;
     margin-top: 0%;
     margin-bottom:0%;
@@ -23,11 +26,8 @@ line-height: 75px;
 margin-left: 2%;
 text-decoration: none;}
 
-.topnav a {float: right;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-align-content: center;
+.topnav a {
+margin: 0 auto;
 }
 
 /* nav bar stylings here */
