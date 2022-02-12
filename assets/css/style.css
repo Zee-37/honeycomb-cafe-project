@@ -30,4 +30,22 @@ text-decoration: none;}
 align-content: center;
 }
 
-#home-above {border-radius: 4%;}
+/* nav bar stylings here */
+
+h2 {font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-weight: bold;
+font-size: 300%;
+padding: 40px 0 20px 0;
+color: #f6f4d2;}
+
+#home-intro {text-align: center;
+    padding: 10px 40px 30px 40px;
+    border: 5px;
+    font-family: verdana, helvetica, sans-serif;
+    font-size: 150%;
+    color: #2e1f27;
+    line-height: 1.5em;}
+
+.home-box-left {background-color: #f6f4d2;
+    border: 5px;}
