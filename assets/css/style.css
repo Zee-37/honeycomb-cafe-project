@@ -8,25 +8,27 @@ body, html {margin: auto;
     height: 100px;
 background-color: #f6f4d2;}
 
-h1 {position: absolute;
-padding: 1.5%;
-margin-top: 0%;
-margin-bottom: 0%;
+#logo {
+    position: absolute;
+    float: left;
+    padding: 1.5%;
+    margin-top: 0%;
+    margin-bottom:0%;
+font-size: 350%;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-style: italic;
 font-weight: bold;
-color: #2e1f27;}
-
-#logo {float: left;
-font-size: 350%;
+color: #2e1f27;
 line-height: 75px;
-margin-left: 3%;}
+margin-left: 3%;
+text-decoration: none;}
 
-#pages {font-size: 100%;
+#navbarSupportedContent {font-size: 100%;
 letter-spacing: 2px;
-line-height: 150px;}
+line-height: 75px;
+text-align: right;}
 
-#pages li {float: right;
+.nav-link a {float: right;
 list-style-type: none;
 margin-right: 20px;}
 
@@ -41,6 +43,8 @@ color: #2e1f27;}
     border-bottom: 1px solid #bc5f04;
 }
 
+img {max-width: 100%;}
+
 #slider {overflow: hidden;}
 
 #slider figure {position: relative;
@@ -48,4 +52,9 @@ width: 500%;
 margin:0%;
 left: 0%;
 animation: 20s slider infinite;}
+
+#slider figure img {
+    width: 33.3%;
+    float: left;
+}
 

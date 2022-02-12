@@ -12,9 +12,8 @@
 
   <title>Honeycomb</title>
 
-  <!-- bootstrap v.5 link above css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
@@ -22,101 +21,107 @@
 
 <body>
   <header>
-    <a href="index.html">
-      <h1 id="logo">Honeycomb</h1>
-    </a>
 
-    <nav>
-      <ul id="pages" class="nav justify-content-end">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a id="logo" href="index.html">Honeycomb</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <li>
-          <a class="active" href="index.html">Home</a>
-        </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="pages" class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        <li>
-          <a href="#">About</a>
-        </li>
+            <li class="nav-item">
+              <a class="active" aria-current="page" href="index.html">Home</a>
+            </li>
 
-        <li>
-          <a href="#">Menu</a>
-        </li>
+            <li class="nav-item">
+              <a href="#">About</a>
+            </li>
 
-        <li>
-          <a href="#">Gallery</a>
-        </li>
+            <li class="nav-item">
+              <a href="#">Menu</a>
+            </li>
 
-        <li>
-          <a href="contactus.html">Contact</a>
-        </li>
+            <li class="nav-item">
+              <a href="#">Gallery</a>
+            </li>
 
-      </ul>
+            <li class="nav-item">
+              <a href="#">Contact</a>
+            </li>
 
+
+
+          </ul>
+        </div>
+      </div>
     </nav>
 
-  </header>
+    <!-- carousel code snippet taken from bootstrap, see README -->
+    <section>
+      <div id="#slider">
+        <figure>
+          <img src="assets/images/img1.jpg">
+          <img src="assets/images/img2.jpg">
+          <img src="assets/images/img3.jpg">
+        </figure>
+      </div>
+    </section>
 
-  <!-- carousel code snippet taken from bootstrap, see README -->
-  <section>
-    <div id="#slider">
-      <figure>
-        <img src="assets/images/img1.jpg">
-        <img src="assets/images/img2.jpg">
-        <img src="assets/images/img3.jpg">
+    <section>
+      <h2><strong>Coffee - Cocktails - Community</strong></h2>
+      <div>
+        <p id="home-intro">Honeycomb is a cafe and cocktail bar in one. Enjoy our decadent baked goods and speciality
+          coffee
+          during the day, you will be enticed to return for a cocktail and small bites in the evening.
+          <br>
+          Located in the middle of the ever buzzing beehive street, this unique space is a true oasis and a must-visit
+          for
+          any coffee and cocktail lover!
+        </p>
+      </div>
+    </section>
 
-      </figure>
-    </div>
-  </section>
+    <!-- Introducing cocktails-->
+    <section>
+      <div id="home-above">
+        <!-- Add image-->
+        <h3> Introducing Cocktails!!</h3>
 
-  <section>
-    <h2><strong>Coffee - Cocktails - Community</strong></h2>
-    <div>
-      <p id="home-intro">Honeycomb is a cafe and cocktail bar in one. Enjoy our decadent baked goods and speciality
-        coffee
-        during the day, you will be enticed to return for a cocktail and small bites in the evening.
-        <br>
-        Located in the middle of the ever buzzing beehive street, this unique space is a true oasis and a must-visit for
-        any coffee and cocktail lover!
-      </p>
-    </div>
-  </section>
+        <p id="home-above-para">You asked and we listened! We have had a lot of feedback suggesting longer opening hours
+          and an
+          evening vibe. We are proud to introduce specialist cocktails to our menu which can be ordered after 6pm or
+          anytime
+          for Sunday brunch!
 
-  <!-- Introducing cocktails-->
-  <section>
-    <div id="home-above">
-      <!-- Add image-->
-      <h3> Introducing Cocktails!!</h3>
+          <br> Whethere you're craving an espresson martini or a purple rain, come on down to Honeycomb.
+        </p>
+      </div>
+    </section>
 
-      <p id="home-above-para">You asked and we listened! We have had a lot of feedback suggesting longer opening hours
-        and an
-        evening vibe. We are proud to introduce specialist cocktails to our menu which can be ordered after 6pm or
-        anytime
-        for Sunday brunch!
+    <!--venue for hire-->
+    <section>
+      <div id="home-below">
+        <!--Add image-->
+        <h3>Venue for hire</h3>
 
-        <br> Whethere you're craving an espresson martini or a purple rain, come on down to Honeycomb.
-      </p>
-    </div>
-  </section>
+        <p id="home-below-para"> Do you have an event you want to host but not sure where to host it? We host small
+          gatherings, book clubs,
+          birthday celebrations, games nights, karaoke, drag shows, workshops, you name it!
 
-  <!--venue for hire-->
-  <section>
-    <div id="home-below">
-      <!--Add image-->
-      <h3>Venue for hire</h3>
+          Choose between the vibrant atmosphere of the cafe or the more intimate setting of the garden.
 
-      <p id="home-below-para"> Do you have an event you want to host but not sure where to host it? We host small
-        gatherings, book clubs,
-        birthday celebrations, games nights, karaoke, drag shows, workshops, you name it!
+          As part of our plan to give back to the community, local charities can book our venue for free. Contact us for
+          booking enquiries.</p>
+      </div>
+    </section>
 
-        Choose between the vibrant atmosphere of the cafe or the more intimate setting of the garden.
-
-        As part of our plan to give back to the community, local charities can book our venue for free. Contact us for
-        booking enquiries.</p>
-    </div>
-  </section>
-
-  <footer>
-    copyright, social media pages
-  </footer>
+    <footer>
+      copyright, social media pages
+    </footer>
 </body>
 
 </html>
