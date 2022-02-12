@@ -1,1 +1,31 @@
-body {background-color: #bc5f04;}
+body, html {margin: auto;
+    padding: 0%;}
+    
+    body {background-color: #bc5f04;}
+
+    header {width: 100%;
+    height: 90px;
+background-color: #f6f4d2;}
+
+h1 {position: absolute;
+padding: 2%;
+float:left;
+margin: 2%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 350%;
+font-style: italic;
+font-weight: bold;
+color: #2e1f27;}
+
+ul {list-style-type: none;
+    display: inline;
+margin: 0%;
+padding: 0%;
+text-align: right;
+width: auto;
+margin-top: 50px;}
+
+a {text-align: right;
+color: #2e1f27;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;}
