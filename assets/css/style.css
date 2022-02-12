@@ -89,3 +89,20 @@ margin: 5px 0;}
     text-align: center;
     color: #2e1f27;}
 
+/* Footer */
+
+footer {height: 150px;
+}
+
+#copy-22 {text-align: center;}
+
+.sns {
+    text-align: center;
+}
+
+.sns li {display: inline;}
+
+.sns i {font-size: 200%;
+margin: 1%;
+padding: 5%;
+color: #f19c79;}
