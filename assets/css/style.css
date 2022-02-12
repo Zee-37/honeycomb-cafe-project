@@ -49,21 +49,19 @@ color: #f6f4d2;}
 
     /* home content styling*/
 
-#home-cont {height: 1000px;
+#home-cont {height: 750px;
 background-color: #f6f4d2;}
 
 #home-box-left {padding-top: 30px;
     margin-left: 1%;
-width: 33.3%;
+width: 40%;
 float: left;}
 
 #home-box-right {padding: 30px;
 margin-right: 1%;
-width: 33.3%;
+width: 50%;
 float: right;}
 
-#home-box-center {width: 33.3%;
-margin: 0 auto;}
 
 h3 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: #bc5f04;
@@ -91,17 +89,3 @@ margin: 5px 0;}
     text-align: center;
     color: #2e1f27;}
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cbdfbd;
-    border-width: 2px;
-    border-radius: 50%;
-    margin: 0 auto;}
-
-#circle-cover-bg {
-    background: url(../images/img4.jpg)no-repeat center center;
-    height: 100%;
-}
