@@ -20,17 +20,21 @@ font-style: italic;
 font-weight: bold;
 color: #2e1f27;
 line-height: 75px;
-margin-left: 3%;
+margin-left: 2%;
 text-decoration: none;}
+
+.navbar-toggler {
+    float: right;
+    position: relative;
+}
 
 #navbarSupportedContent {font-size: 100%;
 letter-spacing: 2px;
-line-height: 75px;
-text-align: right;}
+line-height: 75px;}
 
-.nav-link a {float: right;
+#pages {float: right;
 list-style-type: none;
-margin-right: 20px;}
+margin-right: 0%;}
 
 #pages a {text-decoration: none;
 color: #2e1f27;}
