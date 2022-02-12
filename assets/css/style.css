@@ -23,3 +23,9 @@ line-height: 75px;
 margin-left: 2%;
 text-decoration: none;}
 
+.topnav a {float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+align-content: center;
+}
