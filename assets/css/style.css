@@ -47,5 +47,12 @@ color: #f6f4d2;}
     color: #2e1f27;
     line-height: 1.5em;}
 
-.home-box-left {background-color: #f6f4d2;
-    border: 5px;}
+    /* home content styling*/
+
+#home-cont {height: 600px;}
+
+.img-4 {width: 100%;}
+
+.home-box-left {padding-top: 30px;
+width: 30%;
+float: left;}
