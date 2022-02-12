@@ -49,10 +49,28 @@ color: #f6f4d2;}
 
     /* home content styling*/
 
-#home-cont {height: 600px;}
+#home-cont {height: 1000px;
+background-color: #f6f4d2;}
 
-.img-2 {width: 100%;}
+#home-box-left {padding-top: 30px;
+    margin-left: 3%;
+width: 33.3%;
+float: left;
+background-color: aqua;}
 
-.home-box-left {padding-top: 30px;
-width: 30%;
-float: left;}
+#home-box-right {padding: 30px;
+    margin-right: 3%;
+width: 33.3%;
+float: right;
+background-color: cornflowerblue;}
+
+#home-box.center {width: 33.3%;
+margin: 0 auto;
+background-color: mediumblue;}
+
+.left-heading {width: 60%;
+line-height: 30px;
+clear: both;
+margin-bottom: 50px;
+margin-left: 50px;
+font-stretch: wider;}
