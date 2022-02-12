@@ -9,7 +9,7 @@ body, html {margin: auto;
 background-color: #f6f4d2;}
 
 h1 {position: absolute;
-padding: 2%;
+padding: 1.5%;
 float:left;
 margin-top: 0%;
 margin-bottom: 0%;
@@ -30,7 +30,7 @@ width: auto;
 margin-top: 3%;
 margin-left: 70%;}
 
-a {text-align: right;
+.nav-link a {text-align: right;
 color: #2e1f27;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-decoration: none;}
