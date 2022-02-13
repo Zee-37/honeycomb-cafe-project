@@ -108,3 +108,12 @@ footer {height: 150px;
 margin: 1%;
 padding: 1%;
 color: #f19c79;}
+
+
+/*Gallery styling*/
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+}
