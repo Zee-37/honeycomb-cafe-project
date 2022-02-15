@@ -26,11 +26,12 @@ line-height: 75px;
 margin-left: 2%;
 text-decoration: none;}
 
+/* nav bar stylings here */
+
 .topnav a {
 margin: 0 auto;
 }
 
-/* nav bar stylings here */
 
 h2 {font-family: Arial, Helvetica, sans-serif;
 text-align: center;
@@ -115,6 +116,10 @@ footer {height: 150px;
 margin: 1%;
 padding: 1%;
 color: #f19c79;}
+
+/*About styling*/
+
+
 
 
 /*Gallery styling*/
