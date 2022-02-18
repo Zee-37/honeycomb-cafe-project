@@ -52,9 +52,37 @@
     margin-bottom: 4px;
   }
 
+@media (max-width: 480px) {
+    .navbar {flex-direction: column;}
 
+.navbar .mn-hdr {
+    font-size: 300%;
+    height: 55px;
+    margin-left: 10px;
+}
+.nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  display: none;
+}
+.nav-list .list-item {
+    display: block;
+    padding: 10px;
+    border-top: 1px solid;
+}
+
+  .toggle {display: block;
+          position: absolute;
+          right: 10px
+}
+
+.active {
+  display: block;
+}
     
-    body {background-color: #bc5f04;}
+body {background-color: #bc5f04;}
 
 
 h2 {font-family: Arial, Helvetica, sans-serif;
@@ -156,4 +184,4 @@ color: #f19c79;}
 }
 
 
-/*Contact page*/
+/*Contact page*/}
