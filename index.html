@@ -22,7 +22,7 @@
   <header>
     <nav class="navbar">
       <div class="mn-hdr">
-        <a href="#">Honeycomb</a>
+        <a href="index.html">Honeycomb</a>
       </div>
 
       <ul class="nav-list" id="nav-ul">
@@ -43,11 +43,6 @@
         </li>
       </ul>
 
-      <div class="toggle" id="toggle-button">
-        <div class="toggle-line"></div>
-        <div class="toggle-line"></div>
-        <div class="toggle-line"></div>
-      </div>
     </nav>
 
   </header>
@@ -121,55 +116,57 @@
 
   <footer>
 
-    <div id="footer-container"
-      class="d-flex flex-column flex-md-row flex-lg-row justify-content-md-start align-items-start">
-      <p id="info">
-        Phone: 0207 987 3246
-        Address: 12 Beehive St. London. BH19 2DZ
-      </p>
+    <div class="b-example-divider"></div>
 
-      <h4 class="times">Opening Times</h4>
-      <ul class="times">
-        <li>Mondays: Closed</li>
-        <li>Tuesdays - Thursdays: 11AM - 1:30AM</li>
-        <li>Fridays - Sundays: 12PM - 3AM</li>
-      </ul>
 
-      <p id="copy-22">Copyright &copy; 2022 My Website</p>
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-2">
+            <h5>Info</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">0207 987 3246</li>
+              <li class="nav-item mb-2">Address: 12 Beehive St. London. BH19 2DZ</li>
+            </ul>
+          </div>
 
-      <ul class="sns">
-        <li>
-          <a href="https://facebook.com" target="_blank" rel="noopener"
-            aria-label="Visit us on Facebook (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-        </li>
+          <div class="col-2">
+            <h5>Opening Times</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">Mondays: Closed</li>
+              <li class="nav-item mb-2">Tuesdays - Thursdays: 11AM - 1:30AM</li>
+              <li class="nav-item mb-2">Fridays - Sundays: 12AM - 3AM</li>
+            </ul>
+          </div>
+          <div>
 
-        <li>
-          <a href="https://twitter.com" target="_blank" rel="noopener"
-            aria-label="Visit us on Twitter (opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
-        </li>
+            <p id="copy-22">Copyright &copy; 2022 My Website</p>
 
-        <li>
-          <a href="https://Instagram.com" target="_blank" rel="noopener"
-            aria-label="Visit us on Instagram (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-        </li>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                  aria-label="Visit us on Facebook (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+              </li>
 
-        <li>
-          <a href="https://pinterest.com" target="_blank" rel="noopener"
-            aria-label="Visit us on Pinterest (opens in new tab)"><i class="fa-brands fa-pinterest"></i></a>
-        </li>
+              <li class="ms-3">
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                  aria-label="Visit us on Twitter (opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
+              </li>
 
-      </ul>
-    </div>
-  </footer>
+              <li class="ms-3">
+                <a href="https://Instagram.com" target="_blank" rel="noopener"
+                  aria-label="Visit us on Instagram (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+
+              <li class="ms-3">
+                <a href="https://pinterest.com" target="_blank" rel="noopener"
+                  aria-label="Visit us on Pinterest (opens in new tab)"><i class="fa-brands fa-pinterest"></i></a>
+              </li>
+
+            </ul>
+          </div>
+      </footer>
 
 </body>
-<script>
-  const toggleButton = document.getElementById('toggle-button');
-  const naviList = document.getElementById('nav-ul');
-
-  toggleButton.addEventListener('click', () => {
-    naviList.classList.toggle('active');
-  })
-</script>
 
 </html>
